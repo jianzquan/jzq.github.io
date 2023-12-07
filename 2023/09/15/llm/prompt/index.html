@@ -1,0 +1,200 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Prompt-Tuning (LLM) | Jian's Page</title><meta name="keywords" content="prompt"><meta name="author" content="jiandan"><meta name="copyright" content="jiandan"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="LLM 相关技术">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Prompt-Tuning (LLM)">
+<meta property="og:url" content="http://jianzquan.github.io/2023/09/15/llm/prompt/index.html">
+<meta property="og:site_name" content="Jian&#39;s Page">
+<meta property="og:description" content="LLM 相关技术">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://jianzquan.github.io/img/cartoon_1.jpg">
+<meta property="article:published_time" content="2023-09-15T11:20:47.999Z">
+<meta property="article:modified_time" content="2023-12-06T05:25:43.539Z">
+<meta property="article:author" content="jiandan">
+<meta property="article:tag" content="prompt">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://jianzquan.github.io/img/cartoon_1.jpg"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://jianzquan.github.io/2023/09/15/llm/prompt/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    jQuery: 'https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js',
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+    },
+    fancybox: {
+      js: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isanchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = { 
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2023-12-06 13:25:43'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    })(window)</script><meta name="generator" content="Hexo 6.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="author-avatar"><img class="avatar-img" src="/./img/cartoon_0.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">文章</div><div class="length-num">6</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/tags/"><div class="headline">标签</div><div class="length-num">5</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/categories/"><div class="headline">分类</div><div class="length-num">4</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> List</span><i class="fas fa-chevron-down expand hide"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> Music</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> Movie</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('/./img/cartoon_1.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">Jian's Page</a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> List</span><i class="fas fa-chevron-down expand hide"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> Music</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> Movie</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Prompt-Tuning (LLM)</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-09-15T11:20:47.999Z" title="发表于 2023-09-15 19:20:47">2023-09-15</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-12-06T05:25:43.539Z" title="更新于 2023-12-06 13:25:43">2023-12-06</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/LLM/">LLM</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="Prompt-Tuning (LLM)"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h2 id="1-语言模型发展阶段"><a href="#1-语言模型发展阶段" class="headerlink" title="1. 语言模型发展阶段"></a>1. 语言模型发展阶段</h2><ul>
+<li><p><strong>第一阶段</strong>: Task-specific Fine-tuning</p>
+<p>  <em><strong>过程</strong></em>：对于具体任务，以预训练语言模型为backbone，引入额外参数适配任务，进行fine-tuning。</p>
+<p>  <em><strong>问题</strong></em>：① 下游任务目标与预训练目标差距过大；② 微调依赖大量监督语料</p>
+<p>  <em><strong>代表</strong></em>：BERT、GPT、XLNet</p>
+</li>
+<li><p><strong>第二阶段</strong>: Prompt-tuning</p>
+<p>  <em><strong>过程</strong></em>：逐步扩⼤模型参数和训练语料规模，探索不同类型的架构。</p>
+<p>  <em><strong>代表</strong></em>：BART、T5、GPT-3等；</p>
+</li>
+<li><p><strong>第三阶段</strong>: </p>
+<p>  <em><strong>过程</strong></em>：⾛向AIGC（Artificial Intelligent Generated Content）时代，模型参数规模步⼊千万亿，模型架构为⾃回归架构，⼤模型⾛向对话式、⽣成式、多模态时代，更加注重与⼈类交互进⾏对⻬，实现可靠、安全、⽆毒的模型。</p>
+<p>  <em><strong>代表</strong></em>：InstructionGPT、Cha tGPT、Bard、GPT-4等。</p>
+</li>
+</ul>
+<div align=center><img src="https://cdn.jsdelivr.net/gh/jianzquan/Rep4MyPage/img/LLM.jpg" width="800"></div>
+<br/>
+
+
+<h2 id="2-Prompt-Tuning"><a href="#2-Prompt-Tuning" class="headerlink" title="2. Prompt-Tuning"></a>2. Prompt-Tuning</h2><p>prompt-tuning 起源于GPT-3，GPT-3开创性地提出了in-context learning&#x2F;demonstrate learning，由于其是建立在大规模预训练语言模型上的，参数量大于10B，在真实场景中很难应用。这套方法应用在小模型上，就是prompt-tuning了。</p>
+<p>prompt-tuning 旨在解决传统fine-tuning的两个痛点问题：</p>
+<ul>
+<li><em><strong>降低语义差异</strong></em>：缩小pre-training与fine-tuning两个阶段目标差距。</li>
+<li><em><strong>避免过拟合</strong></em>：通过添加模板的方式避免引入额外的参数，进而造成的过拟合问题。<br/></li>
+</ul>
+<p>Prompt-tuning 两个关键问题：（还有Ensembling的玩法）</p>
+<ul>
+<li><p>模板构建(template): (大量优化方法)</p>
+<p>人工构建</p>
+<p>启发式发：PTR、AutoPrompt</p>
+<p>生成：LM-BFF、</p>
+<p>词向量微调</p>
+<p>伪标记：Prompt Tuning、P-tuning、Pre-trained Prompt Tuning、</p>
+</li>
+<li><p>标签词映射(label word verbilizer): KPT、ProtoVerb、</p>
+</li>
+</ul>
+<div align=center><img src="https://cdn.jsdelivr.net/gh/jianzquan/Rep4MyPage/img/Prompt.jpg" width="800"></div>
+
+<br/>
+
+<h2 id="3-面向LLM的Prompt-Tuning"><a href="#3-面向LLM的Prompt-Tuning" class="headerlink" title="3. 面向LLM的Prompt-Tuning"></a>3. 面向LLM的Prompt-Tuning</h2><p>研究发现，对于超过10亿参数量的模型来说。Prompt-tuning所带来的收益远远高于标准的Fine-tuning。</p>
+<p>参数量够大、语料足够多、预训练任务足够有效，就能很好的实现免参数训练的零样本学习。</p>
+<p>LLM的Prompt-tuning方法：</p>
+<ul>
+<li><p><strong>In-Context Learning</strong>: (研究论文&#x2F;技术很多很多)</p>
+<p>  <em><strong>过程</strong></em>：从训练集中挑选少量的标注样本，设计任务相关的指令形成提示模板，用于指导测试样本生成相应的结果。</p>
+  <div align=center><img src="https://cdn.jsdelivr.net/gh/jianzquan/Rep4MyPage/img/ICT.jpg" width="700"></div>
+  
+<p>  <em><strong>问题</strong></em>：如何选择样本？如何组合样本？(方差大、不稳定问题)</p>
+</li>
+<li><p><strong>Instruction-tuning</strong>:</p>
+<p>  <em><strong>过程</strong></em>：为各种任务定义指令，按指令模板重构输入进行训练。</p>
+</li>
+<li><p><strong>Chain-of-Thought</strong>: 进一步提高超大模型在复杂任务上的推理能力。</p>
+<p>  <em><strong>过程</strong></em>：代码的预训练</p>
+</li>
+</ul>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">jiandan</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://jianzquan.github.io/2023/09/15/llm/prompt/">http://jianzquan.github.io/2023/09/15/llm/prompt/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://jianzquan.github.io" target="_blank">Jian's Page</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/prompt/">prompt</a></div><div class="post_share"><div class="social-share" data-image="/./img/cartoon_1.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2023/12/06/monthly/2023-12/"><img class="prev-cover" src="/./img/space_1.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">Month-12, Year-2023</div></div></a></div><div class="next-post pull-right"><a href="/2023/09/15/llm/papers/paper_lists/"><img class="next-cover" src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">Large Language Models (LLM)</div></div></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="card-info-avatar is-center"><img class="avatar-img" src="/./img/cartoon_0.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/><div class="author-info__name">jiandan</div><div class="author-info__description"></div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">6</div></a></div><div class="card-info-data-item is-center"><a href="/tags/"><div class="headline">标签</div><div class="length-num">5</div></a></div><div class="card-info-data-item is-center"><a href="/categories/"><div class="headline">分类</div><div class="length-num">4</div></a></div></div><a class="button--animated" id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/jianzquan"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/jianzquan" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:jiandan@gmail.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%E5%8F%91%E5%B1%95%E9%98%B6%E6%AE%B5"><span class="toc-number">1.</span> <span class="toc-text">1. 语言模型发展阶段</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-Prompt-Tuning"><span class="toc-number">2.</span> <span class="toc-text">2. Prompt-Tuning</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-%E9%9D%A2%E5%90%91LLM%E7%9A%84Prompt-Tuning"><span class="toc-number">3.</span> <span class="toc-text">3. 面向LLM的Prompt-Tuning</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2023/12/06/tools/image2text/" title="Image2Text"><img src="/./img/space_5.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Image2Text"/></a><div class="content"><a class="title" href="/2023/12/06/tools/image2text/" title="Image2Text">Image2Text</a><time datetime="2023-12-06T08:08:40.881Z" title="发表于 2023-12-06 16:08:40">2023-12-06</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/12/06/monthly/2023-12/" title="Month-12, Year-2023"><img src="/./img/space_1.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Month-12, Year-2023"/></a><div class="content"><a class="title" href="/2023/12/06/monthly/2023-12/" title="Month-12, Year-2023">Month-12, Year-2023</a><time datetime="2023-12-06T05:27:29.263Z" title="发表于 2023-12-06 13:27:29">2023-12-06</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/09/15/llm/prompt/" title="Prompt-Tuning (LLM)"><img src="/./img/cartoon_1.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Prompt-Tuning (LLM)"/></a><div class="content"><a class="title" href="/2023/09/15/llm/prompt/" title="Prompt-Tuning (LLM)">Prompt-Tuning (LLM)</a><time datetime="2023-09-15T11:20:47.999Z" title="发表于 2023-09-15 19:20:47">2023-09-15</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/09/15/llm/papers/paper_lists/" title="Large Language Models (LLM)"><img src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Large Language Models (LLM)"/></a><div class="content"><a class="title" href="/2023/09/15/llm/papers/paper_lists/" title="Large Language Models (LLM)">Large Language Models (LLM)</a><time datetime="2023-09-15T11:20:47.979Z" title="发表于 2023-09-15 19:20:47">2023-09-15</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/09/15/hello-hexo/" title="Hello Hexo"><img src="/./img/cartoon_1.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Hello Hexo"/></a><div class="content"><a class="title" href="/2023/09/15/hello-hexo/" title="Hello Hexo">Hello Hexo</a><time datetime="2023-09-15T11:20:47.939Z" title="发表于 2023-09-15 19:20:47">2023-09-15</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2023 By jiandan</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
