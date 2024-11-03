@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>CCM for ERC</title>
+    <link href="/p/a4e64cb1.html"/>
+    <url>/p/a4e64cb1.html</url>
+    
+    <content type="html"><![CDATA[<h2 align="center"> <a href="https://ieeexplore.ieee.org/abstract/document/10446226">Conversation Clique-based Model for Emotion Recognition in Conversation</a></h2><h5 align="center"> If you appreciate our project, please consider giving us a star ⭐ on GitHub to stay updated with the latest developments.  </h2><h4 align="center"><p>🚀 Welcome to the repo of <a href="https://github.com/jian-projects/ccm"><strong>CCM</strong></a>!</p><p>CCM addresses the unimodal ERC task by modeling information with a conversation clique, accepted by ICASSP2024.</p><!-- [![🤗Hugging Face](https://img.shields.io/badge/🤗Hugging_Face-Uni_MoE-yellow)](https://huggingface.co/Uni-MoE) --><!-- [![Project Page](https://img.shields.io/badge/Project_Page-Uni_MoE-blue)](https://uni-moe.github.io/) --><!-- [![Demo](https://img.shields.io/badge/Demo-Local-orange)](https://github.com/HITsz-TMG/UMOE-Scaling-Unified-Multimodal-LLMs/tree/master?tab=readme-ov-file#-demo-video)  --><!-- [![Paper](https://img.shields.io/badge/Paper-arxiv-yellow)](https://arxiv.org/abs/2405.11273) --><p><a href="https://scholar.google.com/citations?user=C1PWVBUAAAAJ&hl=zh-CN">Zhongquan Jian</a>, Jiajian Li, <a href="https://scholar.google.com/citations?hl=zh-CN&user=Szz3hSMAAAAJ">Junfeng Yao</a>, <a href="https://dblp.uni-trier.de/pid/99/3203.html">Meihong Wang</a>, <a href="https://dblp.uni-trier.de/pid/130/0742.html">Qingqiang Wu</a></p></h4><!-- ## 🌟 StructureThe model architecture of Uni-MoE is shown below. Three training stages contain: 1) Utilize pairs from different modalities and languages to build connectors that map these elements to a unified language space, establishing a foundation for multimodal understanding; 2) Develop modality-specific experts using cross-modal data to ensure deep understanding, preparing for a cohesive multi-expert model; 3) Incorporate multiple trained experts into LLMs and refine the unified multimodal model using the LoRA technique on mixed multimodal data.<div align=center><img src="https://github.com/HITsz-TMG/UMOE-Scaling-Unified-Multimodal-LLMs/blob/master/model.png" height="100%" width="75%"/></div> --><h2 id="⚡️-Install"><a href="#⚡️-Install" class="headerlink" title="⚡️ Install"></a>⚡️ Install</h2><p>The following instructions are for Linux installation.<br>We would like to recommend the requirements as follows.</p><ul><li>Python &#x3D;&#x3D; 3.9.16</li><li>CUDA Version &gt;&#x3D; 11.7</li></ul><ol><li><p>Clone this repository and navigate to the ccm folder</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">git git@github.com:jian-projects/ccm.git<br><span class="hljs-built_in">cd</span> ccm<br></code></pre></td></tr></table></figure></li><li><p>Install Package</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs Shell">conda create -n ccm python==3.9.16<br>conda activate ccm<br>pip install -r env.txt<br></code></pre></td></tr></table></figure></li></ol><h2 id="🌈-How-to-train-and-inference"><a href="#🌈-How-to-train-and-inference" class="headerlink" title="🌈 How to train and inference"></a>🌈 How to train and inference</h2><ol><li><p>Make sure that all the weights are downloaded and the running environment is set correctly.</p></li><li><p>run the script:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">python run_erc.py<br></code></pre></td></tr></table></figure></li></ol><h2 id="Citation"><a href="#Citation" class="headerlink" title="Citation"></a>Citation</h2><p>If you find Uni-MoE useful for your research and applications, please cite using this BibTeX:</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><code class="hljs bibtex"><br>@INPROCEEDINGS&#123;2024.erc.ccm,<br>  author=&#123;Jian, Zhongquan and Li, Jiajian and Yao, Junfeng and Wang, Meihong and Wu, Qingqiang&#125;,<br>  booktitle=&#123;ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)&#125;, <br>  title=&#123;Conversation Clique-Based Model for Emotion Recognition In Conversation&#125;, <br>  year=&#123;2024&#125;,<br>  volume=&#123;&#125;,<br>  number=&#123;&#125;,<br>  pages=&#123;5865-5869&#125;,<br>  doi=&#123;10.1109/ICASSP48485.2024.10446226&#125;<br>&#125;<br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    <categories>
+      
+      <category>study</category>
+      
+      <category>paper</category>
+      
+      <category>accept</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>accepted_papers</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>EmoTrans for ERC</title>
+    <link href="/p/9066766e.html"/>
+    <url>/p/9066766e.html</url>
+    
+    <content type="html"><![CDATA[<h2 align="center"> <a href="https://aclanthology.org/2024.lrec-main.508/">EmoTrans: Emotional Transition-based Model for Emotion Recognition in Conversation</a></h2><h5 align="center"> If you appreciate our project, please consider giving us a star ⭐ on GitHub to stay updated with the latest developments.  </h2><h4 align="center"><p>🚀 Welcome to the repo of <a href="https://github.com/jian-projects/emotrans"><strong>EmoTrans</strong></a>!</p><p>EmoTrans addresses the unimodal ERC task by modeling emotion transition feature, accepted by COLING2024.</p><!-- [![🤗Hugging Face](https://img.shields.io/badge/🤗Hugging_Face-Uni_MoE-yellow)](https://huggingface.co/Uni-MoE) --><!-- [![Project Page](https://img.shields.io/badge/Project_Page-Uni_MoE-blue)](https://uni-moe.github.io/) --><!-- [![Demo](https://img.shields.io/badge/Demo-Local-orange)](https://github.com/HITsz-TMG/UMOE-Scaling-Unified-Multimodal-LLMs/tree/master?tab=readme-ov-file#-demo-video)  --><!-- [![Paper](https://img.shields.io/badge/Paper-arxiv-yellow)](https://arxiv.org/abs/2405.11273) --><p><a href="https://scholar.google.com/citations?user=C1PWVBUAAAAJ&hl=zh-CN">Zhongquan Jian</a>, <a href="https://scholar.google.com/citations?user=xmwanZcAAAAJ&hl=zh-CN">Ante Wang</a>, <a href="https://scholar.google.com/citations?user=w6qCk3sAAAAJ&hl=zh-CN">Jinsong Su</a>, <a href="https://scholar.google.com/citations?hl=zh-CN&user=Szz3hSMAAAAJ">Junfeng Yao</a>, <a href="https://dblp.uni-trier.de/pid/99/3203.html">Meihong Wang</a>, <a href="https://dblp.uni-trier.de/pid/130/0742.html">Qingqiang Wu</a></p></h4><!-- ## 🌟 StructureThe model architecture of Uni-MoE is shown below. Three training stages contain: 1) Utilize pairs from different modalities and languages to build connectors that map these elements to a unified language space, establishing a foundation for multimodal understanding; 2) Develop modality-specific experts using cross-modal data to ensure deep understanding, preparing for a cohesive multi-expert model; 3) Incorporate multiple trained experts into LLMs and refine the unified multimodal model using the LoRA technique on mixed multimodal data.<div align=center><img src="https://github.com/HITsz-TMG/UMOE-Scaling-Unified-Multimodal-LLMs/blob/master/model.png" height="100%" width="75%"/></div> --><h2 id="⚡️-Install"><a href="#⚡️-Install" class="headerlink" title="⚡️ Install"></a>⚡️ Install</h2><p>The following instructions are for Linux installation.<br>We would like to recommend the requirements as follows.</p><ul><li>Python &#x3D;&#x3D; 3.9.16</li><li>CUDA Version &gt;&#x3D; 11.7</li></ul><ol><li><p>Clone this repository and navigate to the ccm folder</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">git git@github.com:jian-projects/emotrans.git<br><span class="hljs-built_in">cd</span> emotrans<br></code></pre></td></tr></table></figure></li><li><p>Install Package</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs Shell">conda create -n emotrans python==3.9.16<br>conda activate emotrans<br>pip install -r env.txt<br></code></pre></td></tr></table></figure></li></ol><h2 id="🌈-How-to-train-and-inference"><a href="#🌈-How-to-train-and-inference" class="headerlink" title="🌈 How to train and inference"></a>🌈 How to train and inference</h2><ol><li><p>Make sure that all the weights are downloaded and the running environment is set correctly.</p></li><li><p>run the script:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">python run_emotrans.py<br></code></pre></td></tr></table></figure></li></ol><h2 id="Citation"><a href="#Citation" class="headerlink" title="Citation"></a>Citation</h2><p>If you find Uni-MoE useful for your research and applications, please cite using this BibTeX:</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs bibtex">@inproceedings&#123;2024.erc.emotrans,<br>  author=&#123;Zhongquan Jian and Ante Wang and Jinsong Su and Junfeng Yao and Meihong Wang and Qingqiang Wu&#125;,<br>  title=&#123;EmoTrans: Emotional Transition-based Model for Emotion Recognition in Conversation&#125;,<br>  booktitle=&#123;Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation&#125;,<br>  pages=&#123;5723--5733&#125;,<br>  year= &#123;2024&#125;,<br>  doi=&#123;https://aclanthology.org/2024.lrec-main.508&#125;,<br>&#125;<br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    <categories>
+      
+      <category>study</category>
+      
+      <category>paper</category>
+      
+      <category>accept</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>accepted_papers</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Papers Reading</title>
+    <link href="/p/7133d84f.html"/>
+    <url>/p/7133d84f.html</url>
+    
+    <content type="html"><![CDATA[<h2 id="⚡️-Aspect-based-Sentiment-Analysis"><a href="#⚡️-Aspect-based-Sentiment-Analysis" class="headerlink" title="⚡️ Aspect-based Sentiment Analysis"></a>⚡️ Aspect-based Sentiment Analysis</h2><h3 id="RNN-based"><a href="#RNN-based" class="headerlink" title="RNN-based"></a>RNN-based</h3><blockquote><ol><li>xxx</li><li>xxx</li></ol></blockquote><h3 id="Graph-based"><a href="#Graph-based" class="headerlink" title="Graph-based"></a>Graph-based</h3><blockquote><ol><li>xxx</li><li>xxx</li></ol></blockquote><h2 id="🌈-Emotion-Recognition-in-Conversation"><a href="#🌈-Emotion-Recognition-in-Conversation" class="headerlink" title="🌈 Emotion Recognition in Conversation"></a>🌈 Emotion Recognition in Conversation</h2><h3 id="RNN-based-1"><a href="#RNN-based-1" class="headerlink" title="RNN-based"></a>RNN-based</h3><blockquote><ol><li>xxx</li><li>xxx</li></ol></blockquote><h3 id="Graph-based-1"><a href="#Graph-based-1" class="headerlink" title="Graph-based"></a>Graph-based</h3><blockquote><ol><li>xxx</li><li>xxx</li></ol></blockquote>]]></content>
+    
+    
+    <categories>
+      
+      <category>study</category>
+      
+      <category>paper</category>
+      
+      <category>reading</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>papers_reading</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Accepted Papers</title>
+    <link href="/p/82354480.html"/>
+    <url>/p/82354480.html</url>
+    
+    <content type="html"><![CDATA[<h2 id="⚡️-Aspect-based-Sentiment-Analysis"><a href="#⚡️-Aspect-based-Sentiment-Analysis" class="headerlink" title="⚡️ Aspect-based Sentiment Analysis"></a>⚡️ Aspect-based Sentiment Analysis</h2><blockquote></blockquote><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><code class="hljs bibtex"><br>@INPROCEEDINGS&#123;2024.erc.ccm,<br>  author=&#123;Jian, Zhongquan and Li, Jiajian and Yao, Junfeng and Wang, Meihong and Wu, Qingqiang&#125;,<br>  booktitle=&#123;ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)&#125;, <br>  title=&#123;Conversation Clique-Based Model for Emotion Recognition In Conversation&#125;, <br>  year=&#123;2024&#125;,<br>  volume=&#123;&#125;,<br>  number=&#123;&#125;,<br>  pages=&#123;5865-5869&#125;,<br>  doi=&#123;10.1109/ICASSP48485.2024.10446226&#125;<br>&#125;<br></code></pre></td></tr></table></figure><h2 id="🌈-Emotion-Recognition-in-Conversation"><a href="#🌈-Emotion-Recognition-in-Conversation" class="headerlink" title="🌈 Emotion Recognition in Conversation"></a>🌈 Emotion Recognition in Conversation</h2><blockquote><ol><li><a href="">CCM</a></li></ol></blockquote><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs bibtex">@INPROCEEDINGS&#123;2024.erc.ccm,<br>  author=&#123;Jian, Zhongquan and Li, Jiajian and Yao, Junfeng and Wang, Meihong and Wu, Qingqiang&#125;,<br>  booktitle=&#123;ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)&#125;, <br>  title=&#123;Conversation Clique-Based Model for Emotion Recognition In Conversation&#125;, <br>  year=&#123;2024&#125;,<br>  volume=&#123;&#125;,<br>  number=&#123;&#125;,<br>  pages=&#123;5865-5869&#125;,<br>  doi=&#123;https://doi.org/10.1109/ICASSP48485.2024.10446226&#125;<br>&#125;<br></code></pre></td></tr></table></figure><blockquote><ol start="2"><li><a href="">EmoTrans</a></li></ol></blockquote><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs bibtex">@inproceedings&#123;2024.erc.emotrans,<br>  author=&#123;Zhongquan Jian and Ante Wang and Jinsong Su and Junfeng Yao and Meihong Wang and Qingqiang Wu&#125;,<br>  title=&#123;EmoTrans: Emotional Transition-based Model for Emotion Recognition in Conversation&#125;,<br>  booktitle=&#123;Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation&#125;,<br>  pages=&#123;5723--5733&#125;,<br>  year= &#123;2024&#125;,<br>  doi=&#123;https://aclanthology.org/2024.lrec-main.508&#125;,<br>&#125;<br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    <categories>
+      
+      <category>study</category>
+      
+      <category>paper</category>
+      
+      <category>accept</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>papers_accepted</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Prompt-Tuning</title>
+    <link href="/p/4d136056.html"/>
+    <url>/p/4d136056.html</url>
+    
+    <content type="html"><![CDATA[<h2 id="1-语言模型发展阶段"><a href="#1-语言模型发展阶段" class="headerlink" title="1. 语言模型发展阶段"></a>1. 语言模型发展阶段</h2><ul><li><p><strong>第一阶段</strong>: Task-specific Fine-tuning</p><p>  <em><strong>过程</strong></em>：对于具体任务，以预训练语言模型为backbone，引入额外参数适配任务，进行fine-tuning。</p><p>  <em><strong>问题</strong></em>：① 下游任务目标与预训练目标差距过大；② 微调依赖大量监督语料</p><p>  <em><strong>代表</strong></em>：BERT、GPT、XLNet</p></li><li><p><strong>第二阶段</strong>: Prompt-tuning</p><p>  <em><strong>过程</strong></em>：逐步扩⼤模型参数和训练语料规模，探索不同类型的架构。</p><p>  <em><strong>代表</strong></em>：BART、T5、GPT-3等；</p></li><li><p><strong>第三阶段</strong>: </p><p>  <em><strong>过程</strong></em>：⾛向AIGC（Artificial Intelligent Generated Content）时代，模型参数规模步⼊千万亿，模型架构为⾃回归架构，⼤模型⾛向对话式、⽣成式、多模态时代，更加注重与⼈类交互进⾏对⻬，实现可靠、安全、⽆毒的模型。</p><p>  <em><strong>代表</strong></em>：InstructionGPT、Cha tGPT、Bard、GPT-4等。</p></li></ul><div align=center><img src="https://cdn.jsdelivr.net/gh/jianzquan/Rep4MyPage/img/LLM.jpg" width="800"></div><br/><h2 id="2-Prompt-Tuning"><a href="#2-Prompt-Tuning" class="headerlink" title="2. Prompt-Tuning"></a>2. Prompt-Tuning</h2><p>prompt-tuning 起源于GPT-3，GPT-3开创性地提出了in-context learning&#x2F;demonstrate learning，由于其是建立在大规模预训练语言模型上的，参数量大于10B，在真实场景中很难应用。这套方法应用在小模型上，就是prompt-tuning了。</p><p>prompt-tuning 旨在解决传统fine-tuning的两个痛点问题：</p><ul><li><em><strong>降低语义差异</strong></em>：缩小pre-training与fine-tuning两个阶段目标差距。</li><li><em><strong>避免过拟合</strong></em>：通过添加模板的方式避免引入额外的参数，进而造成的过拟合问题。<br/></li></ul><p>Prompt-tuning 两个关键问题：（还有Ensembling的玩法）</p><ul><li><p>模板构建(template): (大量优化方法)</p><p>人工构建</p><p>启发式发：PTR、AutoPrompt</p><p>生成：LM-BFF、</p><p>词向量微调</p><p>伪标记：Prompt Tuning、P-tuning、Pre-trained Prompt Tuning、</p></li><li><p>标签词映射(label word verbilizer): KPT、ProtoVerb、</p></li></ul><div align=center><img src="https://cdn.jsdelivr.net/gh/jianzquan/Rep4MyPage/img/Prompt.jpg" width="800"></div><br/><h2 id="3-面向LLM的Prompt-Tuning"><a href="#3-面向LLM的Prompt-Tuning" class="headerlink" title="3. 面向LLM的Prompt-Tuning"></a>3. 面向LLM的Prompt-Tuning</h2><p>研究发现，对于超过10亿参数量的模型来说。Prompt-tuning所带来的收益远远高于标准的Fine-tuning。</p><p>参数量够大、语料足够多、预训练任务足够有效，就能很好的实现免参数训练的零样本学习。</p><p>LLM的Prompt-tuning方法：</p><ul><li><p><strong>In-Context Learning</strong>: (研究论文&#x2F;技术很多很多)</p><p>  <em><strong>过程</strong></em>：从训练集中挑选少量的标注样本，设计任务相关的指令形成提示模板，用于指导测试样本生成相应的结果。</p>  <div align=center><img src="https://cdn.jsdelivr.net/gh/jianzquan/Rep4MyPage/img/ICT.jpg" width="700"></div>  <p>  <em><strong>问题</strong></em>：如何选择样本？如何组合样本？(方差大、不稳定问题)</p></li><li><p><strong>Instruction-tuning</strong>:</p><p>  <em><strong>过程</strong></em>：为各种任务定义指令，按指令模板重构输入进行训练。</p></li><li><p><strong>Chain-of-Thought</strong>: 进一步提高超大模型在复杂任务上的推理能力。</p><p>  <em><strong>过程</strong></em>：代码的预训练</p></li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>study</category>
+      
+      <category>llm</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>study.llm</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Modality Large Language Model</title>
+    <link href="/p/642db888.html"/>
+    <url>/p/642db888.html</url>
+    
+    <content type="html"><![CDATA[<h2 id="1-语言模型发展阶段"><a href="#1-语言模型发展阶段" class="headerlink" title="1. 语言模型发展阶段"></a>1. 语言模型发展阶段</h2><p>This is MLLM Technique</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>study</category>
+      
+      <category>llm</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>study.llm</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Large Language Models</title>
+    <link href="/p/e8397a02.html"/>
+    <url>/p/e8397a02.html</url>
+    
+    <content type="html"><![CDATA[<h2 id="Papers"><a href="#Papers" class="headerlink" title="Papers"></a>Papers</h2><h3 id="source-https-github-com-RUCAIBox-Top-conference-paper-list-blob-main-EMNLP2022-ICLR2023-LLM-papers-md"><a href="#source-https-github-com-RUCAIBox-Top-conference-paper-list-blob-main-EMNLP2022-ICLR2023-LLM-papers-md" class="headerlink" title="source: https://github.com/RUCAIBox/Top-conference-paper-list/blob/main/EMNLP2022_ICLR2023_LLM_papers.md"></a>source: <a href="https://github.com/RUCAIBox/Top-conference-paper-list/blob/main/EMNLP2022_ICLR2023_LLM_papers.md">https://github.com/RUCAIBox/Top-conference-paper-list/blob/main/EMNLP2022_ICLR2023_LLM_papers.md</a></h3><h1 id="Catalog-目录"><a href="#Catalog-目录" class="headerlink" title="Catalog(目录)"></a>Catalog(目录)</h1><ul><li><a href="#catalog%E7%9B%AE%E5%BD%95">Catalog(目录)</a><ul><li><a href="#training%E8%AE%AD%E7%BB%83">Training【训练】</a><ul><li><a href="#pre-training%E9%A2%84%E8%AE%AD%E7%BB%83">Pre-Training【预训练】</a></li><li><a href="#instruction-tuning%E6%8C%87%E4%BB%A4%E5%BE%AE%E8%B0%83">Instruction Tuning【指令微调】</a></li></ul></li><li><a href="#utilization%E4%BD%BF%E7%94%A8">Utilization【使用】</a><ul><li><a href="#in-context-learning%E4%B8%8A%E4%B8%8B%E6%96%87%E5%AD%A6%E4%B9%A0">In-Context Learning【上下文学习】</a></li><li><a href="#chain-of-thought-prompting%E6%80%9D%E7%BB%B4%E9%93%BE%E6%8F%90%E7%A4%BA">Chain-of-Thought Prompting【思维链提示】</a></li><li><a href="#z%E5%8E%8B%E7%BC%A9">z【压缩】</a></li><li><a href="#others%E5%85%B6%E4%BB%96">Others【其他】</a></li></ul></li><li><a href="#application%E5%BA%94%E7%94%A8">Application【应用】</a><ul><li><a href="#multi-modal%E5%A4%9A%E6%A8%A1%E6%80%81">Multi-Modal【多模态】</a></li><li><a href="#code%E4%BB%A3%E7%A0%81">Code【代码】</a></li><li><a href="#retrieval%E6%A3%80%E7%B4%A2">Retrieval【检索】</a></li><li><a href="#text-generation%E6%96%87%E6%9C%AC%E7%94%9F%E6%88%90">Text Generation【文本生成】</a></li><li><a href="#others%E5%85%B6%E4%BB%96-1">Others【其他】</a></li></ul></li><li><a href="#analysis--evaluation%E5%88%86%E6%9E%90%E4%B8%8E%E8%AF%84%E6%B5%8B">Analysis &amp; Evaluation【分析与评测】</a></li></ul></li></ul><h2 id="Training【训练】"><a href="#Training【训练】" class="headerlink" title="Training【训练】"></a>Training【训练】</h2><h3 id="Pre-Training【预训练】"><a href="#Pre-Training【预训练】" class="headerlink" title="Pre-Training【预训练】"></a>Pre-Training【预训练】</h3><ul><li>UL2: Unifying Language Learning Paradigms</li><li>Learning to Grow Pretrained Models for Efficient Transformer Training</li><li>Efficient Large Scale Language Modeling with Mixtures of Experts</li><li>Knowledge-in-Context: Towards Knowledgeable Semi-Parametric Language Models</li><li>CodeGen: An Open Large Language Model for Code with Multi-Turn Program Synthesis</li><li>InCoder: A Generative Model for Code Infilling and Synthesis</li><li>CodeBPE: Investigating Subtokenization Options for Large Language Model Pretraining on Source Code</li><li>CodeRetriever: A Large Scale Contrastive Pre-Training Method for Code Search</li><li>UniMax: Fairer and More Effective Language Sampling for Large-Scale Multilingual Pretraining</li><li>GLM-130B: An Open Bilingual Pre-trained Model</li><li>When FLUE Meets FLANG: Benchmarks and Large Pretrained Language Model for Financial Domain</li></ul><h3 id="Instruction-Tuning【指令微调】"><a href="#Instruction-Tuning【指令微调】" class="headerlink" title="Instruction Tuning【指令微调】"></a>Instruction Tuning【指令微调】</h3><ul><li>What Makes Instruction Learning Hard? An Investigation and a New Challenge in a Synthetic Environment</li><li>InstructDial: Improving Zero and Few-shot Generalization in Dialogue through Instruction Tuning</li><li>Learning Instructions with Unlabeled Data for Zero-Shot Cross-Task Generalization</li><li>Super-NaturalInstructions: Generalization via Declarative Instructions on 1600+ NLP Tasks</li><li>Boosting Natural Language Generation from Instructions with Meta-Learning</li><li>Help me write a Poem - Instruction Tuning as a Vehicle for Collaborative Poetry Writing</li><li>Multitask Instruction-based Prompting for Fallacy Recognition</li><li>Not All Tasks Are Born Equal: Understanding Zero-Shot Generalization</li><li>HypeR: Multitask Hyper-Prompted Training Enables Large-Scale Retrieval Generalization</li></ul><h2 id="Utilization【使用】"><a href="#Utilization【使用】" class="headerlink" title="Utilization【使用】"></a>Utilization【使用】</h2><h3 id="In-Context-Learning【上下文学习】"><a href="#In-Context-Learning【上下文学习】" class="headerlink" title="In-Context Learning【上下文学习】"></a>In-Context Learning【上下文学习】</h3><ul><li>​​What learning algorithm is in-context learning? Investigations with linear models</li><li>Ask Me Anything: A simple strategy for prompting language models</li><li>Large Language Models are Human-Level Prompt Engineers</li><li>Using Both Demonstrations and Language Instructions to Efficiently Learn Robotic Tasks</li><li>kNN Prompting: Beyond-Context Learning with Calibration-Free Nearest Neighbor Inference</li><li>Guess the Instruction! Flipped Learning Makes Language Models Stronger Zero-Shot Learners</li><li>Selective Annotation Makes Language Models Better Few-Shot Learners</li><li>Active Example Selection for In-Context Learning</li><li>Rethinking the Role of Demonstrations: What Makes In-Context Learning Work?</li><li>In-Context Learning for Few-Shot Dialogue State Tracking</li><li>Few-Shot Anaphora Resolution in Scientific Protocols via Mixtures of In-Context Experts</li><li>ProGen: Progressive Zero-shot Dataset Generation via In-context Feedback</li><li>Controllable Dialogue Simulation with In-context Learning</li><li>Thinking about GPT-3 In-Context Learning for Biomedical IE? Think Again</li><li>XRICL: Cross-lingual Retrieval-Augmented In-Context Learning for Cross-lingual Text-to-SQL Semantic Parsing</li><li>On the Compositional Generalization Gap of In-Context Learning</li><li>Towards In-Context Non-Expert Evaluation of Reflection Generation for Counselling Conversations</li><li>Towards Few-Shot Identification of Morality Frames using In-Context Learning</li></ul><h3 id="Chain-of-Thought-Prompting【思维链提示】"><a href="#Chain-of-Thought-Prompting【思维链提示】" class="headerlink" title="Chain-of-Thought Prompting【思维链提示】"></a>Chain-of-Thought Prompting【思维链提示】</h3><ul><li>ReAct: Synergizing Reasoning and Acting in Language Models</li><li>Selection-Inference: Exploiting Large Language Models for Interpretable Logical Reasoning</li><li>Neuro-Symbolic Procedural Planning with Commonsense Prompting</li><li>Language Models Are Greedy Reasoners: A Systematic Formal Analysis of Chain-of-Thought</li><li>PINTO: Faithful Language Reasoning Using Prompt-Generated Rationales</li><li>Decomposed Prompting: A Modular Approach for Solving Complex Tasks</li><li>Complexity-Based Prompting for Multi-step Reasoning</li><li>Automatic Chain of Thought Prompting in Large Language Models</li><li>Compositional Semantic Parsing with Large Language Models</li><li>Self-Consistency Improves Chain of Thought Reasoning in Language Models</li><li>Least-to-Most Prompting Enables Complex Reasoning in Large Language Models</li><li>Entailer: Answering Questions with Faithful and Truthful Chains of Reasoning</li><li>Iteratively Prompt Pre-trained Language Models for Chain of Thought</li><li>ConvFinQA: Exploring the Chain of Numerical Reasoning in Conversational Finance Question Answering</li><li>Induced Natural Language Rationales and Interleaved Markup Tokens Enable Extrapolation in Large Language Models</li></ul><h3 id="z【压缩】"><a href="#z【压缩】" class="headerlink" title="z【压缩】"></a>z【压缩】</h3><ul><li>Understanding and Improving Knowledge Distillation for Quantization Aware Training of Large Transformer Encoders</li><li>The Optimal BERT Surgeon: Scalable and Accurate Second-Order Pruning for Large Language Models</li><li>AlphaTuning: Quantization-Aware Parameter-Efficient Adaptation of Large-Scale Pre-Trained Language Models</li></ul><h3 id="Others【其他】"><a href="#Others【其他】" class="headerlink" title="Others【其他】"></a>Others【其他】</h3><ul><li>BBTv2: Towards a Gradient-Free Future with Large Language Models</li><li>Compositional Task Representations for Large Language Models</li><li>Just Fine-tune Twice: Selective Differential Privacy for Large Language Models</li></ul><h2 id="Application【应用】"><a href="#Application【应用】" class="headerlink" title="Application【应用】"></a>Application【应用】</h2><h3 id="Multi-Modal【多模态】"><a href="#Multi-Modal【多模态】" class="headerlink" title="Multi-Modal【多模态】"></a>Multi-Modal【多模态】</h3><ul><li>Visual Classification via Description from Large Language Models</li><li>Socratic Models: Composing Zero-Shot Multimodal Reasoning with Language</li><li>Plug-and-Play VQA: Zero-shot VQA by Conjoining Large Pretrained Models with Zero Training</li></ul><h3 id="Code【代码】"><a href="#Code【代码】" class="headerlink" title="Code【代码】"></a>Code【代码】</h3><ul><li>DocPrompting: Generating Code by Retrieving the Docs</li><li>Planning with Large Language Models for Code Generation</li><li>CodeT: Code Generation with Generated Tests</li><li>Language Models Can Teach Themselves to Program Better</li></ul><h3 id="Retrieval【检索】"><a href="#Retrieval【检索】" class="headerlink" title="Retrieval【检索】"></a>Retrieval【检索】</h3><ul><li>Promptagator: Few-shot Dense Retrieval From 8 Examples</li><li>Recitation-Augmented Language Models</li><li>Generate rather than Retrieve: Large Language Models are Strong Context Generators</li><li>QUILL: Query Intent with Large Language Models using Retrieval Augmentation and Multi-stage Distillation</li></ul><h3 id="Text-Generation【文本生成】"><a href="#Text-Generation【文本生成】" class="headerlink" title="Text Generation【文本生成】"></a>Text Generation【文本生成】</h3><ul><li>Generating Sequences by Learning to Self-Correct</li><li>RankGen: Improving Text Generation with Large Ranking Models</li><li>Eliciting Knowledge from Large Pre-Trained Models for Unsupervised Knowledge-Grounded Conversation</li></ul><h3 id="Others【其他】-1"><a href="#Others【其他】-1" class="headerlink" title="Others【其他】"></a>Others【其他】</h3><ul><li>Systematic Rectification of Language Models via Dead-end Analysis</li><li>Reward Design with Language Models</li><li>Bidirectional Language Models Are Also Few-shot Learners</li><li>Composing Ensembles of Pre-trained Models via Iterative Consensus</li><li>Binding Language Models in Symbolic Languages</li><li>Mind’s Eye: Grounded Language Model Reasoning through Simulation</li></ul><h2 id="Analysis-Evaluation【分析与评测】"><a href="#Analysis-Evaluation【分析与评测】" class="headerlink" title="Analysis &amp; Evaluation【分析与评测】"></a>Analysis &amp; Evaluation【分析与评测】</h2><ul><li>WikiWhy: Answering and Explaining Cause-and-Effect Questions</li><li>ROSCOE: A Suite of Metrics for Scoring Step-by-Step Reasoning</li><li>Quantifying Memorization Across Neural Language Models</li><li>Mass-Editing Memory in a Transformer</li><li>Multi-lingual Evaluation of Code Generation Models</li><li>STREET: A MULTI-TASK STRUCTURED REASONING AND EXPLANATION BENCHMARK</li><li>Leveraging Large Language Models for Multiple Choice Question Answering</li><li>Broken Neural Scaling Laws</li><li>Language models are multilingual chain-of-thought reasoners</li><li>Language Models are Realistic Tabular Data Generators</li><li>Task Ambiguity in Humans and Language Models</li><li>Discovering Latent Knowledge in Language Models Without Supervision</li><li>Prompting GPT-3 To Be Reliable</li><li>Large language models are few-shot clinical information extractors</li><li>How Large Language Models are Transforming Machine-Paraphrase Plagiarism</li><li>Neural Theory-of-Mind? On the Limits of Social Intelligence in Large LMs</li><li>SLING: Sino Linguistic Evaluation of Large Language Models</li><li>A Systematic Investigation of Commonsense Knowledge in Large Language Models</li><li>Lexical Generalization Improves with Larger Models and Longer Training</li><li>What do Large Language Models Learn beyond Language?</li><li>Probing for Understanding of English Verb Classes and Alternations in Large Pre-trained Language Models</li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>study</category>
+      
+      <category>llm</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>study.llm</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>LLM.Tuning</title>
+    <link href="/p/60ca0da5.html"/>
+    <url>/p/60ca0da5.html</url>
+    
+    <content type="html"><![CDATA[<div align=center><img src="/image/study/llm/peft.jpg" width="800"></div> <br><p>Thanks to: <a href="https://zhuanlan.zhihu.com/p/675231376">https://zhuanlan.zhihu.com/p/675231376</a><br>Library: <a href="https://github.com/adapter-hub/adapters">https://github.com/adapter-hub/adapters</a></p><h2 id="Fine-Tuning"><a href="#Fine-Tuning" class="headerlink" title="Fine-Tuning"></a>Fine-Tuning</h2><ul><li>调整 PLM&#x2F;LLM 所有层和参数, 使其适应特定任务.</li><li>使用较小的学习率 &amp; 特定任务的数据进行.</li><li>优点: 充分利用预训练模型的通用特征; 缺点: 需要更多的计算资源.</li></ul><h2 id="Parameter-Efficient-Fine-Tuning"><a href="#Parameter-Efficient-Fine-Tuning" class="headerlink" title="Parameter Efficient Fine-Tuning"></a>Parameter Efficient Fine-Tuning</h2><ul><li>最小化微调参数的数量和计算复杂度, 极大降低训练成本.</li><li>不改变 PLM&#x2F;LLM 知识前提下, 迅速适应新任务，实现高效的迁移学习.</li><li>提高模型效果的同时, 大大缩短模型训练时间和计算成本</li></ul><table>    <tr style="background-color: #f7f7f7;">        <td align='center'>Methods</td>        <td align='center'>Principle</td>    </tr>    <tr>         <td>             <strong> 1. [LoRA](https://arxiv.org/abs/2106.09685): </strong>             <br> 1. 好，很好，非常好         </td>         <td>             <img align='center' src="/image/study/llm/lora.png" width="90%">         </td>     </tr>    <tr>         <td>             <strong> 2. QLoRA: </strong>             <br> 1. 好，很好，非常好         </td>         <td>             <img align='center' src="/image/study/llm/lora.png" width="90%">         </td>     </tr>    <tr>         <td>             <strong> 3. Adapter Tuning: </strong>             <br> 1. 好，很好，非常好         </td>         <td>             <img align='center' src="/image/study/llm/lora.png" width="90%">         </td>     </tr>    <tr>         <td>             <strong> 4. Prefix Tuning: </strong>             <br> 1. 好，很好，非常好         </td>         <td>             <img align='center' src="/image/study/llm/lora.png" width="90%">         </td>     </tr>    <tr>         <td>             <strong> 5. Prompt Tuning: </strong>             <br> * 好，很好，非常好         </td>         <td>             <img align='center' src="/image/study/llm/lora.png" width="90%">         </td>     </tr>    <tr>         <td>             <strong> 6. P Tuning & v2: </strong>             <br> 1. 好，很好，非常好         </td>         <td>             <img align='center' src="/image/study/llm/lora.png" width="90%">         </td>     </tr></table><h3 id="Low-Rank-Adaptation-LoRA"><a href="#Low-Rank-Adaptation-LoRA" class="headerlink" title="Low-Rank Adaptation (LoRA)"></a><a href="https://arxiv.org/abs/2106.09685">Low-Rank Adaptation (LoRA)</a></h3><ul><li>123</li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>study</category>
+      
+      <category>llm</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>study.llm</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Machine / Deep Learning</title>
+    <link href="/p/12367031.html"/>
+    <url>/p/12367031.html</url>
+    
+    <content type="html"><![CDATA[<h2 align="center"> <a href="https://www.bilibili.com/video/BV1j94y1u7pR/?spm_id_from=333.337.search-card.all.click&vd_source=1a3db25c48420a7d4d2f3103fd37d117">Course of Machine / Deep Learning</a></h2><h1 id="🌟-Introduction-of-Machine-Deep-Learning"><a href="#🌟-Introduction-of-Machine-Deep-Learning" class="headerlink" title="🌟 Introduction of Machine &#x2F; Deep Learning"></a>🌟 Introduction of Machine &#x2F; Deep Learning</h1><ul><li><strong>Machine Learning: Looking for Function</strong><blockquote><p><em><strong>Speech Recognition</strong></em>: <img src="\image\study\ml_dl\ml_sr_example.png" align="middle" /><br><em><strong>Image Recognition</strong></em>:  <img src="\image\study\ml_dl\ml_ir_example.png" align="middle" /></p></blockquote></li><li><strong>Different Types of Functions</strong><blockquote><p><em><strong>Regression</strong></em>: the function outputs a scalar. <img src="\image\study\ml_dl\ml_reg_example.png" align="middle" /><br><em><strong>Classification</strong></em>: given opinions (classes), the function outputs the correct one. <img src="\image\study\ml_dl\ml_cls_example.png" align="middle" /><br><em><strong>Structured Learning</strong></em>: create something with structure (image, document)</p></blockquote></li><li><strong>Find the Optimal Function</strong><blockquote><p><em><strong>Select Function</strong></em>: function with unknown parameters, e.g., y &#x3D; wx + b<br><em><strong>Definite Loss</strong></em>: calculate loss from training data, e.g., MAE &#x2F; MSE &#x2F; Cross Entropy<br><em><strong>Optimization</strong></em>: gradient descent</p></blockquote></li></ul><h1 id="Pytorch"><a href="#Pytorch" class="headerlink" title="Pytorch"></a>Pytorch</h1>]]></content>
+    
+    
+    <categories>
+      
+      <category>study</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>study</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Hidden Markov Model</title>
+    <link href="/p/abc07e40.html"/>
+    <url>/p/abc07e40.html</url>
+    
+    <content type="html"><![CDATA[<h2 id="Hidden-Markov-Model"><a href="#Hidden-Markov-Model" class="headerlink" title="Hidden Markov Model"></a>Hidden Markov Model</h2><h3 id="符号"><a href="#符号" class="headerlink" title="符号"></a>符号</h3><ul><li>观测序列: $X&#x3D;{ x_{1}, …, x_{T} }$ (离散&#x2F;连续取值均可)</li><li>隐藏序列: $Z&#x3D;{ z_{1}, …, z_{T} }$ (每个$z_{i}$有N种离散取值)</li><li>模型参数: $\lambda&#x3D;(\pi, A, B)$</li></ul><h3 id="基本假设"><a href="#基本假设" class="headerlink" title="基本假设"></a>基本假设</h3><ul><li><p>齐次Markov假设: (t+1时刻 隐藏状态只与前一时刻隐藏状态相关) </p><p>$p(z_{t+1}|z_{t},…,z_{1},x_{t},…,x_{1})&#x3D;p(z_{t+1}|z_{t})$</p></li><li><p>观测独立假设: (t时刻 观测状态只与 t时刻 隐藏状态相关)</p><p>$p(x_{t}|z_{t},…,z_{1},x_{t-1},…,x_{1})&#x3D;p(x_{t}|z_{t})$</p></li></ul><h3 id="三个问题"><a href="#三个问题" class="headerlink" title="三个问题"></a>三个问题</h3><ul><li><p>Evaluation: (已知模型参数, 求概率最大的观测序列 $X$) </p><p>$p(X|\lambda)$ $\to$ Forward-Backward 算法</p></li><li><p>Learning: (已知观测序列, 求模型参数)</p><p>$\lambda&#x3D;argmax_{\lambda} \ p(X|\lambda)$ $\to$ EM 算法 </p></li><li><p>Decoding: (已知模型参数和观测序列, 求概率最大的隐藏序列)</p><p>$Z&#x3D;argmax_{Z} \ p(Z|X, \lambda)$ $\to$ Vierbi 算法</p><ol><li>Filter: $p(z_{t}|x_{1},…,x_{t})$</li><li>Predict: $p(z_{t+1}|x_{1},…,x_{t})$</li></ol></li></ul><div align=center><img src="https://cdn.jsdelivr.net/gh/jianzquan/Rep4MyPage/img/HMM.png" width="600"></div><br/><h3 id="Forward-Algorithm"><a href="#Forward-Algorithm" class="headerlink" title="Forward Algorithm"></a>Forward Algorithm</h3><p>$\alpha_{t}(i)&#x3D;p(x_{1},…,x_{t}, z_{t}&#x3D;q_{i}|\lambda)$ (t时刻, 给定前t个观测状态,隐藏状态为 $q_{i}$ 的概率)</p><p>$\alpha_{t+1}(j)&#x3D;\sum_{i&#x3D;1}^{N}b_{j}(x_{t})a_{ij} * \alpha_{t}(i)$</p><h3 id="Backward-Algorithm"><a href="#Backward-Algorithm" class="headerlink" title="Backward Algorithm"></a>Backward Algorithm</h3><p>$\beta_{t}(i)&#x3D;p(x_{t+1},…,x_{T}|z_{t}&#x3D;q_{i}, \lambda)$ (t时刻, 给定后续观测状态, 隐藏状态为 $q_{i}$ 的概率)</p><p>$\beta_{t}(i)&#x3D;\sum_{j&#x3D;1}^{N}b_{j}(x_{t+1})a_{ij} * \beta_{t+1}(j)$</p><h3 id="Tasks"><a href="#Tasks" class="headerlink" title="Tasks"></a>Tasks</h3><h4 id="Learning"><a href="#Learning" class="headerlink" title="Learning"></a>Learning</h4><ul><li><p>$\lambda&#x3D;argmax_{\lambda} \ p(X|\lambda)$</p><p>  $p(X|\lambda)&#x3D;\sum_{Z}p(Z,X|\lambda)&#x3D;\sum_{Z}p(X|Z,\lambda)p(Z|\lambda)$</p></li></ul><h4 id="Inference"><a href="#Inference" class="headerlink" title="Inference"></a>Inference</h4><ul><li><p>Decoding: </p><p>$Z&#x3D;argmax_{Z} \ p(Z|X, \lambda)$</p></li><li><p>Prob of evidence: </p><p>$p(X)$</p></li><li><p>Filtering: </p><p>$p(z_{t}|x_{1},…,x_{t})$</p></li><li><p>Smoothing: </p><p>$p(z_{t}|x_{1},…,x_{T})$</p></li><li><p>Prediction: </p><p> $\left{<br>   \begin{array}{l}<br> p(z_{t+1}|x_{1},…,x_{t}) \<br> p(x_{t+1}|x_{1},…,x_{t})<br>   \end{array}<br>\right.$</p></li></ul><!-- $$ \left\{  \begin{array}{l}    Learning: \lambda=argmax_{\lambda} \ p(X|\lambda) \\    Inference       \left\{        \begin{array}{l}          Decoding: Z=argmax_{Z} \ p(Z|X, \lambda) \\          Prob \ of \ evidence: p(X) \\          Filtering: p(z_{t}|x_{1},...,x_{t}) \\          Smoothing: p(z_{t}|x_{1},...,x_{T}) \\          Prediction:             \left\{                \begin{array}{l}                 p(z_{t+1}|x_{1},...,x_{t}) \\                 p(x_{t+1}|x_{1},...,x_{t})               \end{array}            \right.        \end{array}      \right.  \end{array}\right. $$ -->]]></content>
+    
+    
+    <categories>
+      
+      <category>study</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>study</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>VsCode Setting</title>
+    <link href="/p/vscodeset.html"/>
+    <url>/p/vscodeset.html</url>
+    
+    <content type="html"><![CDATA[<h2 align="center"> VsCode 配置 </h2><h5 align="center"> 1. Python；2. Latex；3. Github </h2><h2 id="🎨-Python"><a href="#🎨-Python" class="headerlink" title="🎨 Python"></a>🎨 Python</h2><ol><li>清华源下载 <a href="https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/">Anaconda</a>, 安装 并 配置环境<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs shell">D:\Program\Anaconda3<br>D:\Program\Anaconda3\Scripts<br>D:\Program\Anaconda3\Library\bin<br>D:\Program\Anaconda3\Library\usr\bin<br>D:\Program\Anaconda3\Library\mingw-w64\bin<br><br>打开 Powershell, 执行conda init, 重新打开Powershell<br>出错的话，执行 set-ExecutionPolicy RemoteSigned 命令后重试<br></code></pre></td></tr></table></figure></li><li>安装插件：python、copilot、ssh、</li></ol><h2 id="📀-Latex"><a href="#📀-Latex" class="headerlink" title="📀 Latex"></a>📀 Latex</h2><h3 id="配置相关事项"><a href="#配置相关事项" class="headerlink" title="配置相关事项"></a>配置相关事项</h3><ol><li><p>清华源下载 <a href="https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/">texlive</a>, Customize语言、取消TeXworks前端、更换安装目录</p></li><li><p>安装插件：LaTex Workshop、Chinese(Simplified)</p></li><li><p>打开 setting.json，黏贴<a href="https://github.com/jianzquan/My_Password/blob/main/latex_setting.json">配置</a>，重启vscode生效</p></li><li><p>安装本地插件：下载 <a href="https://github.com/znck/grammarly/releases">grammarly.vsix</a>，从VSIX安装，setting.json文件中要包含grammarly设置：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-string">&quot;grammarly.files.include&quot;</span>: [<br>    <span class="hljs-string">&quot;**/readme.md&quot;</span>,<br>    <span class="hljs-string">&quot;**/README.md&quot;</span>,<br>    <span class="hljs-string">&quot;**/*.txt&quot;</span>,<br>    <span class="hljs-string">&quot;**/*.tex&quot;</span><br>],<br></code></pre></td></tr></table></figure></li></ol><h3 id="使用相关事项"><a href="#使用相关事项" class="headerlink" title="使用相关事项"></a>使用相关事项</h3><ol><li>三线表:<figure class="highlight latex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><code class="hljs latex"><span class="hljs-keyword">\usepackage</span>&#123;tabularx,booktabs,multirow&#125;<br><span class="hljs-keyword">\begin</span>&#123;table&#125;[htbp]<br>    <span class="hljs-keyword">\centering</span><br>      <span class="hljs-keyword">\begin</span>&#123;tabular&#125;&#123;ll|cccccc&#125;<br>      <span class="hljs-keyword">\toprule</span><br>      <span class="hljs-keyword">\multicolumn</span>&#123;2&#125;&#123;c|&#125;&#123;Datasets&#125; <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\multicolumn</span>&#123;2&#125;&#123;c&#125;&#123;Laptops&#125; <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\multicolumn</span>&#123;2&#125;&#123;c&#125;&#123;Restaurants&#125; <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\multicolumn</span>&#123;2&#125;&#123;c&#125;&#123;Twitter&#125; <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\midrule</span><br>      <span class="hljs-keyword">\multicolumn</span>&#123;1&#125;&#123;l&#125;&#123;Model&#125; <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\multicolumn</span>&#123;1&#125;&#123;l|&#125;&#123;Strategy&#125;  <span class="hljs-built_in">&amp;</span> Macro-F1 <span class="hljs-built_in">&amp;</span> Accuracy <span class="hljs-built_in">&amp;</span> Macro-F1 <span class="hljs-built_in">&amp;</span> Accuracy <span class="hljs-built_in">&amp;</span> Macro-F1 <span class="hljs-built_in">&amp;</span> Accuracy <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\midrule</span><br>      <span class="hljs-built_in">&amp;</span> Base <span class="hljs-built_in">&amp;</span> 67.47 <span class="hljs-built_in">&amp;</span> 72.10 <span class="hljs-built_in">&amp;</span> 70.29 <span class="hljs-built_in">&amp;</span> 80.18 <span class="hljs-built_in">&amp;</span> 71.61 <span class="hljs-built_in">&amp;</span> 72.40 <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\multirow</span>&#123;4&#125;&#123;*&#125;&#123;MemNet&#125; <br>      <span class="hljs-built_in">&amp;</span> CE          <span class="hljs-built_in">&amp;</span> 67.47 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 72.10 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 70.29 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 80.18 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 71.81 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.10 <span class="hljs-built_in">&amp;</span> 72.74 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.09 <span class="hljs-keyword">\\</span><br>      <span class="hljs-built_in">&amp;</span> CE<span class="hljs-keyword">\_</span>SCL      <span class="hljs-built_in">&amp;</span> 67.47 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 72.10 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 70.43 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;80.27&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 71.61 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 72.40 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-keyword">\\</span><br>      <span class="hljs-built_in">&amp;</span> CE<span class="hljs-keyword">\_</span>SCL<span class="hljs-keyword">\_</span>SEEL <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;68.34&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.10 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;72.68&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.05 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;70.67&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.03 <span class="hljs-built_in">&amp;</span> 79.54 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.10 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;72.19&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.05 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;73.05&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.07 <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\midrule</span><br>      <span class="hljs-built_in">&amp;</span> Base <span class="hljs-built_in">&amp;</span> 79.42 <span class="hljs-built_in">&amp;</span> 82.45 <span class="hljs-built_in">&amp;</span> 83.71 <span class="hljs-built_in">&amp;</span> 88.66 <span class="hljs-built_in">&amp;</span> 75.97 <span class="hljs-built_in">&amp;</span> 76.73 <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\multirow</span>&#123;4&#125;&#123;*&#125;&#123;<span class="hljs-keyword">\centering</span><span class="hljs-keyword">\parbox</span>&#123;1.2cm&#125;&#123;ABSA-<span class="hljs-keyword">\\</span>DeBERTa&#125;&#125;<br>      <span class="hljs-built_in">&amp;</span> CE          <span class="hljs-built_in">&amp;</span> 79.80 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.26 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;83.02&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.21 <span class="hljs-built_in">&amp;</span> 83.72 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.02 <span class="hljs-built_in">&amp;</span> 88.69 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.06 <span class="hljs-built_in">&amp;</span> 76.49 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.27 <span class="hljs-built_in">&amp;</span> 77.36 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.67 <span class="hljs-keyword">\\</span><br>      <span class="hljs-built_in">&amp;</span> CE<span class="hljs-keyword">\_</span>SCL      <span class="hljs-built_in">&amp;</span> 79.47 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.09 <span class="hljs-built_in">&amp;</span> 82.55 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.21 <span class="hljs-built_in">&amp;</span> 84.04 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.33 <span class="hljs-built_in">&amp;</span> 89.05 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.24 <span class="hljs-built_in">&amp;</span> 76.41 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.15 <span class="hljs-built_in">&amp;</span> 77.12 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.19 <span class="hljs-keyword">\\</span><br>      <span class="hljs-built_in">&amp;</span> CE<span class="hljs-keyword">\_</span>SCL<span class="hljs-keyword">\_</span>SEEL <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;79.87&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.91 <span class="hljs-built_in">&amp;</span> 82.97 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 1.04 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;84.30&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.37 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;89.13&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.25 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;76.99&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.42 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;77.64&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.39 <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\bottomrule</span><br>      <span class="hljs-keyword">\end</span>&#123;tabular&#125;<span class="hljs-comment">%</span><br>      <span class="hljs-keyword">\caption</span>&#123;Experimental results (<span class="hljs-keyword">\%</span>) of different strategies on three ABSA datasets. Base models are considered the current task-specific models.&#125;<br>    <span class="hljs-keyword">\label</span>&#123;tab:absa<span class="hljs-built_in">_</span>results&#125;<span class="hljs-comment">%</span><br>  <span class="hljs-keyword">\end</span>&#123;table&#125;<br></code></pre></td></tr></table></figure></li></ol><h2 id="🌟-Server"><a href="#🌟-Server" class="headerlink" title="🌟 Server"></a>🌟 Server</h2><ul><li>服务器 免密（本地公钥存放到远程服务器端）<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">ssh-copy-id user@server ip <span class="hljs-comment"># (Windows 上用 Git 操作)</span><br></code></pre></td></tr></table></figure></li><li>服务器 启动方式<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">sudo systemctl set-default multi-user.target <span class="hljs-comment"># (开机默认进入命令行模式，startx 进入图形界面，Ctrl+Alt+F7 切回命令行)</span><br>sudo systemctl set-default graphical.target  <span class="hljs-comment"># (开机默认进入图形用户界面，Ctrl+Alt+F2 进入命令行模式)</span><br></code></pre></td></tr></table></figure></li><li>服务器 软件安装<br>anaconda3 Linux上<a href="https://blog.csdn.net/G_C_H/article/details/133553961">安装</a> (pip install scikit-learn)<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">sudo bash xxx.sh <span class="hljs-comment"># 安装本地 .sh 软件包</span><br><br></code></pre></td></tr></table></figure></li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>study</category>
+      
+      <category>skill</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>study.skill</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Latex</title>
+    <link href="/p/240906latex.html"/>
+    <url>/p/240906latex.html</url>
+    
+    <content type="html"><![CDATA[<h2 align="center"> <a href="https://jianzquan.github.io/">Latex: config & usage</a></h2><h5 align="center"> 1. Install；2. Tricks </h2><h4 align="center"><h2 id="🎨-Installization"><a href="#🎨-Installization" class="headerlink" title="🎨 Installization"></a>🎨 Installization</h2><ul><li>清华源下载 <a href="https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/">texlive</a>, Customize语言、取消TeXworks前端、更换安装目录</li><li>安装插件：LaTex Workshop、Chinese(Simplified)</li><li>打开 setting.json，黏贴<a href="https://github.com/jianzquan/My_Password/blob/main/latex_setting.json">配置</a>，重启vscode生效</li><li>安装本地插件：下载 <a href="https://github.com/znck/grammarly/releases">grammarly.vsix</a>，从VSIX安装，setting.json文件中要包含grammarly设置：<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-string">&quot;grammarly.files.include&quot;</span>: [<br>    <span class="hljs-string">&quot;**/readme.md&quot;</span>,<br>    <span class="hljs-string">&quot;**/README.md&quot;</span>,<br>    <span class="hljs-string">&quot;**/*.txt&quot;</span>,<br>    <span class="hljs-string">&quot;**/*.tex&quot;</span><br>],<br></code></pre></td></tr></table></figure></li></ul><h2 id="🌟-Tricks"><a href="#🌟-Tricks" class="headerlink" title="🌟 Tricks"></a>🌟 Tricks</h2><ol><li>三线表:<figure class="highlight latex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><code class="hljs latex"><span class="hljs-keyword">\usepackage</span>&#123;tabularx,booktabs,multirow&#125;<br><span class="hljs-keyword">\begin</span>&#123;table&#125;[htbp]<br>    <span class="hljs-keyword">\centering</span><br>      <span class="hljs-keyword">\begin</span>&#123;tabular&#125;&#123;ll|cccccc&#125;<br>      <span class="hljs-keyword">\toprule</span><br>      <span class="hljs-keyword">\multicolumn</span>&#123;2&#125;&#123;c|&#125;&#123;Datasets&#125; <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\multicolumn</span>&#123;2&#125;&#123;c&#125;&#123;Laptops&#125; <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\multicolumn</span>&#123;2&#125;&#123;c&#125;&#123;Restaurants&#125; <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\multicolumn</span>&#123;2&#125;&#123;c&#125;&#123;Twitter&#125; <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\midrule</span><br>      <span class="hljs-keyword">\multicolumn</span>&#123;1&#125;&#123;l&#125;&#123;Model&#125; <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\multicolumn</span>&#123;1&#125;&#123;l|&#125;&#123;Strategy&#125;  <span class="hljs-built_in">&amp;</span> Macro-F1 <span class="hljs-built_in">&amp;</span> Accuracy <span class="hljs-built_in">&amp;</span> Macro-F1 <span class="hljs-built_in">&amp;</span> Accuracy <span class="hljs-built_in">&amp;</span> Macro-F1 <span class="hljs-built_in">&amp;</span> Accuracy <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\midrule</span><br>      <span class="hljs-built_in">&amp;</span> Base <span class="hljs-built_in">&amp;</span> 67.47 <span class="hljs-built_in">&amp;</span> 72.10 <span class="hljs-built_in">&amp;</span> 70.29 <span class="hljs-built_in">&amp;</span> 80.18 <span class="hljs-built_in">&amp;</span> 71.61 <span class="hljs-built_in">&amp;</span> 72.40 <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\multirow</span>&#123;4&#125;&#123;*&#125;&#123;MemNet&#125; <br>      <span class="hljs-built_in">&amp;</span> CE          <span class="hljs-built_in">&amp;</span> 67.47 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 72.10 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 70.29 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 80.18 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 71.81 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.10 <span class="hljs-built_in">&amp;</span> 72.74 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.09 <span class="hljs-keyword">\\</span><br>      <span class="hljs-built_in">&amp;</span> CE<span class="hljs-keyword">\_</span>SCL      <span class="hljs-built_in">&amp;</span> 67.47 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 72.10 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 70.43 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;80.27&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 71.61 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-built_in">&amp;</span> 72.40 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.00 <span class="hljs-keyword">\\</span><br>      <span class="hljs-built_in">&amp;</span> CE<span class="hljs-keyword">\_</span>SCL<span class="hljs-keyword">\_</span>SEEL <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;68.34&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.10 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;72.68&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.05 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;70.67&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.03 <span class="hljs-built_in">&amp;</span> 79.54 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.10 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;72.19&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.05 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;73.05&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.07 <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\midrule</span><br>      <span class="hljs-built_in">&amp;</span> Base <span class="hljs-built_in">&amp;</span> 79.42 <span class="hljs-built_in">&amp;</span> 82.45 <span class="hljs-built_in">&amp;</span> 83.71 <span class="hljs-built_in">&amp;</span> 88.66 <span class="hljs-built_in">&amp;</span> 75.97 <span class="hljs-built_in">&amp;</span> 76.73 <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\multirow</span>&#123;4&#125;&#123;*&#125;&#123;<span class="hljs-keyword">\centering</span><span class="hljs-keyword">\parbox</span>&#123;1.2cm&#125;&#123;ABSA-<span class="hljs-keyword">\\</span>DeBERTa&#125;&#125;<br>      <span class="hljs-built_in">&amp;</span> CE          <span class="hljs-built_in">&amp;</span> 79.80 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.26 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;83.02&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.21 <span class="hljs-built_in">&amp;</span> 83.72 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.02 <span class="hljs-built_in">&amp;</span> 88.69 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.06 <span class="hljs-built_in">&amp;</span> 76.49 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.27 <span class="hljs-built_in">&amp;</span> 77.36 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.67 <span class="hljs-keyword">\\</span><br>      <span class="hljs-built_in">&amp;</span> CE<span class="hljs-keyword">\_</span>SCL      <span class="hljs-built_in">&amp;</span> 79.47 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.09 <span class="hljs-built_in">&amp;</span> 82.55 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.21 <span class="hljs-built_in">&amp;</span> 84.04 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.33 <span class="hljs-built_in">&amp;</span> 89.05 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.24 <span class="hljs-built_in">&amp;</span> 76.41 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.15 <span class="hljs-built_in">&amp;</span> 77.12 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.19 <span class="hljs-keyword">\\</span><br>      <span class="hljs-built_in">&amp;</span> CE<span class="hljs-keyword">\_</span>SCL<span class="hljs-keyword">\_</span>SEEL <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;79.87&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.91 <span class="hljs-built_in">&amp;</span> 82.97 <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 1.04 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;84.30&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.37 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;89.13&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.25 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;76.99&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.42 <span class="hljs-built_in">&amp;</span> <span class="hljs-keyword">\textbf</span>&#123;77.64&#125; <span class="hljs-built_in">$</span><span class="hljs-keyword">\pm</span><span class="hljs-built_in">$</span> 0.39 <span class="hljs-keyword">\\</span><br>      <span class="hljs-keyword">\bottomrule</span><br>      <span class="hljs-keyword">\end</span>&#123;tabular&#125;<span class="hljs-comment">%</span><br>      <span class="hljs-keyword">\caption</span>&#123;Experimental results (<span class="hljs-keyword">\%</span>) of different strategies on three ABSA datasets. Base models are considered the current task-specific models.&#125;<br>    <span class="hljs-keyword">\label</span>&#123;tab:absa<span class="hljs-built_in">_</span>results&#125;<span class="hljs-comment">%</span><br>  <span class="hljs-keyword">\end</span>&#123;table&#125;<br></code></pre></td></tr></table></figure></li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>study</category>
+      
+      <category>skill</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>study.skill</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Github 仓库配置</title>
+    <link href="/p/1bcaf232.html"/>
+    <url>/p/1bcaf232.html</url>
+    
+    <content type="html"><![CDATA[<h2 align="center"> <a href="https://jianzquan.github.io/">Github 相关配置</a></h2><h5 align="center"> 1. 本地仓库链接Github仓库；2. 仓库更新操作；3. Github的VsCode配置 </h2><h4 align="center"><p>Template Reference From <a href="https://github.com/HITsz-TMG/UMOE-Scaling-Unified-Multimodal-LLMs">Uni-MoE</a></p><h2 id="🎨-Github-Config"><a href="#🎨-Github-Config" class="headerlink" title="🎨 Github Config"></a>🎨 Github Config</h2><h3 id="For-Windows"><a href="#For-Windows" class="headerlink" title="For Windows"></a>For <a href="https://zhuanlan.zhihu.com/p/496793312">Windows</a></h3><ol><li><p>下载 <a href="https://git-scm.com/download/win">Git</a>，并安装. 然后，配置Git的用户和邮箱:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">git config --global user.name xxx<br>git config --global user.email xxxx<br></code></pre></td></tr></table></figure></li><li><p>本地公钥复制到 <a href="https://github.com/settings/keys">Github</a> 上. 创建仓库，复制仓库地址.</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">ssh-keygen -t rsa (生成密钥对，Git操作，位置通常在&#x27;C:\用户\用户名\.ssh\&#x27;)<br></code></pre></td></tr></table></figure></li><li><p>首次将本地仓库链接到Github上.</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs bash">git init (文件夹下出现 .git 隐藏文件)<br>git add README.md<br>git commit -m <span class="hljs-string">&quot;first commit&quot;</span><br>git branch -M main<br>git remote add origin 仓库地址<br>git push -u origin main<br></code></pre></td></tr></table></figure></li></ol><h3 id="For-Linux"><a href="#For-Linux" class="headerlink" title="For Linux"></a>For Linux</h3><p>Coming sooon</p><h2 id="📀-Repository-Update"><a href="#📀-Repository-Update" class="headerlink" title="📀 Repository Update"></a>📀 Repository Update</h2><ol><li><p>文件更新后，上传到github.</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs shell">git add 文件 (. 表示添加所有)<br>git commit -m &quot;xxx&quot;<br>git push (-f 表示强制覆盖远程文件)<br></code></pre></td></tr></table></figure></li><li><p>撤销提交状态.</p><figure class="highlight pgsql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs pgsql">git <span class="hljs-keyword">reset</span> HEAD (撤销<span class="hljs-keyword">add</span>)<br>git <span class="hljs-keyword">reset</span> <span class="hljs-comment">--soft HEAD^ (仅撤销commit，保留add)</span><br></code></pre></td></tr></table></figure></li></ol><h2 id="🌟-Hexo"><a href="#🌟-Hexo" class="headerlink" title="🌟 Hexo"></a>🌟 Hexo</h2><ol><li>安装 <a href="https://nodejs.org/en/">Node.js</a>, 安装 Hexo:<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-comment"># npm config set registry https://registry.npm.taobao.org # 更换阿里镜像源（有证书过期问题）</span><br>npm config <span class="hljs-built_in">set</span> registry https://mirrors.huaweicloud.com/repository/npm/<br>npm install hexo-cli -g <span class="hljs-comment"># 安装Hexo</span><br>hexo -v <span class="hljs-comment"># 返回Hexo版本，确定安装成功</span><br></code></pre></td></tr></table></figure></li><li>初始化 blog<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs bash">hexo init <span class="hljs-comment"># 初始化博客</span><br>hexo generate <span class="hljs-comment"># 申城网站信息</span><br>hexo server <span class="hljs-comment"># 开始网站服务</span><br></code></pre></td></tr></table></figure></li><li>部署到github</li></ol><ul><li>安装插件<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">npm install hexo-deployer-git --save<br></code></pre></td></tr></table></figure></li><li>配置文件中添加 github 地址<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs bash">deploy:<br>    <span class="hljs-built_in">type</span>: git<br>    repository: git@github.com:username/username.github.io.git  <span class="hljs-comment"># 你的仓库地址</span><br>    branch: gh-pages<br></code></pre></td></tr></table></figure></li><li>生成静态网页，并上传<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs bash">hexo clean <span class="hljs-comment"># 清除缓存</span><br>hexo generate <span class="hljs-comment"># 生成网站</span><br>hexo deploy <span class="hljs-comment"># 部署至远程网络</span><br></code></pre></td></tr></table></figure></li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>study</category>
+      
+      <category>skill</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>study.skill</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Windows Installation</title>
+    <link href="/p/windowsinstall.html"/>
+    <url>/p/windowsinstall.html</url>
+    
+    <content type="html"><![CDATA[<h2 align="center"> Windows 系统重装配置 </h2><h5 align="center"> 1. 系统、office安装与激活；2. 必要软件安装；3. 其他信息配置 </h2><h2 id="🎨-Win11-系统安装"><a href="#🎨-Win11-系统安装" class="headerlink" title="🎨 Win11 系统安装"></a>🎨 Win11 系统安装</h2><blockquote><p>下载 <a href="https://zhengban.xmu.edu.cn/windows.html">Win11</a>系统，下载<a href="https://zhengban.xmu.edu.cn/office.html">office2021</a>软件</p></blockquote><blockquote><p>使用 <a href="https://github.com/pbatard/rufus/releases">Rufus</a> 制作系统盘，使用U盘启动，默认安装</p></blockquote><h2 id="📀-必要软件安装"><a href="#📀-必要软件安装" class="headerlink" title="📀 必要软件安装"></a>📀 必要软件安装</h2><blockquote><p>安装 <a href="https://yasuo.360.cn/">360解压</a> 软件；解压 <a href="https://cocoyun.xyz/user">Clash</a> 科学上网<br>安装 <a href="https://www.google.cn/chrome/index.html">Chrome</a> 浏览器，登录用户同步设置，配置 Grammarly<br>安装 <a href="https://zhengban.xmu.edu.cn/office.html">office</a>-官方<a href="https://zhengban.xmu.edu.cn/windows.html">激活</a>； 安装 visio-破解<a href="https://github.com/zbezj/HEU_KMS_Activator/releases">激活</a>(关闭杀毒)；安装 <a href="https://github.com/juliusyang97/mathtype">MathType</a><br>安装 <a href="https://code.visualstudio.com/docs/?dv=win64user">VsCode</a>，进行相关<a href="xxx">配置</a></p></blockquote><blockquote><p>安装其他软件：有道翻译、ReadPaper、ChatGPT、阿里云盘、向日葵、WeChat、<br>安装 <a href="https://www.termius.com/free-ssh-client-for-windows">Termius</a>，密码 “jianzq@1512” 同步账号信息<br>安装 <a href="https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/">texlive</a>, Customize语言、取消TeXworks前端、更换安装目录；VsCode <a href="xxxx">配置</a></p></blockquote><h2 id="🌟-其他配置"><a href="#🌟-其他配置" class="headerlink" title="🌟 其他配置"></a>🌟 其他配置</h2><ol><li><p>NAS映射：此电脑 -&gt; 映射网络驱动器 -&gt; \59.77.7.19\jzq</p></li><li><p>便签设置：月计划、周计划、日计划</p></li></ol><h2 id="🌟-Anaconda-配置"><a href="#🌟-Anaconda-配置" class="headerlink" title="🌟 Anaconda 配置"></a>🌟 Anaconda 配置</h2><blockquote><p>See </p></blockquote>]]></content>
+    
+    
+    <categories>
+      
+      <category>study</category>
+      
+      <category>skill</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>study.skill</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Linux Installation</title>
+    <link href="/p/linuxinstall.html"/>
+    <url>/p/linuxinstall.html</url>
+    
+    <content type="html"><![CDATA[<h2 align="center"> Linux 系统重装配置 </h2><h5 align="center"> 1. Unbntu 22.04 安装；2. cuda 安装；3. Anaconda 安装 </h2><h2 id="🎨-Ubuntu-22-04-系统安装"><a href="#🎨-Ubuntu-22-04-系统安装" class="headerlink" title="🎨 Ubuntu 22.04 系统安装"></a>🎨 Ubuntu 22.04 系统安装</h2><blockquote><p>下载 <a href="https://releases.ubuntu.com/22.04/">Ubuntu 22.04</a>系统</p></blockquote><blockquote><p>使用 <a href="https://github.com/pbatard/rufus/releases">Rufus</a> 制作系统盘，使用U盘启动，默认安装</p></blockquote><h2 id="🎨-系统一般设置"><a href="#🎨-系统一般设置" class="headerlink" title="🎨 系统一般设置"></a>🎨 系统一般设置</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><code class="hljs bash">grep bash /etc/passwd <span class="hljs-comment"># 查看当前用户</span><br>useradd &lt;name&gt; -m / userdel -r &lt;name&gt; <span class="hljs-comment"># 新建用户 / 删除用户</span><br>usermod -s /bin/bash &lt;name&gt; <span class="hljs-comment"># 修改用户指向 (cat /etc/passwd 查看指向)</span><br>passwd &lt;name&gt; <span class="hljs-comment"># 创建/更改密码</span><br>sudo usermod -aG sudo &lt;name&gt; <span class="hljs-comment"># 添加用户到sudo组</span><br><br>sudo systemctl set-default multi-user.target <span class="hljs-comment"># 默认命令行启动</span><br>sudo systemctl set-default graphical.target <span class="hljs-comment"># 默认图形页面启动</span><br><br>sudo mount -t cifs //59.77.7.19/jzq My_Codes/ -o username=jzq,password=jzq,dir_mode=0777,file_mode=0777 <span class="hljs-comment"># 挂载 Nas</span><br>sudo umount &lt;<span class="hljs-built_in">dir</span>&gt; <span class="hljs-comment"># 卸载 Nas</span><br><br>sudo apt install openssh-server openssh-client <span class="hljs-comment"># 安装 ssh</span><br>sudo systemctl start ssh <span class="hljs-comment"># 启动 ssh</span><br>sudo systemctl <span class="hljs-built_in">enable</span> ssh <span class="hljs-comment"># ssh 设为开机自启</span><br>sudo systemctl status ssh <span class="hljs-comment"># 检查 ssh 服务状态</span><br></code></pre></td></tr></table></figure><h2 id="📀-DL-环境配置"><a href="#📀-DL-环境配置" class="headerlink" title="📀 DL 环境配置"></a>📀 DL 环境配置</h2><h3 id="🌟-NVIDIA-驱动安装"><a href="#🌟-NVIDIA-驱动安装" class="headerlink" title="🌟 NVIDIA 驱动安装"></a>🌟 NVIDIA 驱动安装</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs bash">sudo apt update <span class="hljs-comment"># 更新软件包</span><br>sudo apt upgrade <span class="hljs-comment"># 更新软件包</span><br><br>ubuntu-drivers devices <span class="hljs-comment"># 检查可用的 NVIDIA 驱动</span><br>sudo apt install nvidia-driver-xxx <span class="hljs-comment"># 安装推荐的驱动</span><br>sudo reboot <span class="hljs-comment"># 重启生效</span><br></code></pre></td></tr></table></figure><h3 id="🌟-CUDA-安装"><a href="#🌟-CUDA-安装" class="headerlink" title="🌟 CUDA 安装"></a>🌟 <a href="https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=24.04&target_type=runfile_local">CUDA 安装</a></h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">wget https://developer.download.nvidia.com/compute/cuda/12.6.2/local_installers/cuda_12.6.2_560.35.03_linux.run <span class="hljs-comment"># 下载 cuda 到本地</span><br>sudo sh cuda_12.6.2_560.35.03_linux.run <span class="hljs-comment"># 安装 cuda</span><br></code></pre></td></tr></table></figure><h3 id="🌟-Anaconda-安装配置"><a href="#🌟-Anaconda-安装配置" class="headerlink" title="🌟 Anaconda 安装配置"></a>🌟 <a href="www.baidu.com">Anaconda 安装配置</a></h3><blockquote><p>See <a href="http://www.baidu.com/">www.baidu.com</a></p></blockquote>]]></content>
+    
+    
+    <categories>
+      
+      <category>study</category>
+      
+      <category>skill</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>study.skill</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Anaconda Installation</title>
+    <link href="/p/anacondainstall.html"/>
+    <url>/p/anacondainstall.html</url>
+    
+    <content type="html"><![CDATA[<h2 align="center"> Anaconda 环境配置 </h2><h5 align="center"> 1. anaconda3 安装；2. 系统环境配置；3. 常见问题 </h2><h2 id="🌟-For-Linux"><a href="#🌟-For-Linux" class="headerlink" title="🌟 For Linux"></a>🌟 For Linux</h2><blockquote><p>下载 <a href="https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/">Anaconda3</a> </p></blockquote><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs bash">bash Anaconda_xxx.sh <span class="hljs-comment"># 根目录选择 /home/anaconda3</span><br><br><span class="hljs-built_in">echo</span> <span class="hljs-string">&#x27;export PATH=&quot;/home/anaconda3/bin:$PATH&quot;&#x27;</span> &gt;&gt; ~/.bashrc <span class="hljs-comment"># conda 导入用户配置 </span><br><span class="hljs-built_in">source</span> ~/.bashrc <span class="hljs-comment"># 更新用户设置</span><br></code></pre></td></tr></table></figure><h2 id="🌟-For-Windows"><a href="#🌟-For-Windows" class="headerlink" title="🌟 For Windows"></a>🌟 For Windows</h2><blockquote><ol><li>下载 <a href="https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/">Anaconda3</a> </li><li>双击安装, 自定义安装目录</li><li>系统环境变量设置</li></ol></blockquote><h2 id="🌟-Python-环境配置"><a href="#🌟-Python-环境配置" class="headerlink" title="🌟 Python 环境配置"></a>🌟 Python 环境配置</h2><blockquote><ol><li>复制环境需要手动修改 xxx&#x2F;bin&#x2F;pip 文件</li></ol></blockquote><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs bash">conda create -n jzq_sa python=3.11 <span class="hljs-comment"># 创建环境</span><br>conda activate jzq_sa <span class="hljs-comment"># 激活环境</span><br><br>pip3 install torch torchvision torchaudio <span class="hljs-comment"># https://pytorch.org/get-started/locally/</span><br>pip3 install pytorch-lightning <span class="hljs-comment"># 安装 pl</span><br>pip3 install transformers loguru wandb scikit-learn <span class="hljs-comment"># 安装其他包</span><br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    <categories>
+      
+      <category>tools</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>linux</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Templates</title>
+    <link href="/p/edd9ff2d.html"/>
+    <url>/p/edd9ff2d.html</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>My Academic Life</title>
+    <link href="/p/240906academic.html"/>
+    <url>/p/240906academic.html</url>
+    
+    <content type="html"><![CDATA[<h2 id="Latex"><a href="#Latex" class="headerlink" title="Latex"></a><a href="http://jianzquan.github.io/p/240906latex">Latex</a></h2><h2 id="Vscode"><a href="#Vscode" class="headerlink" title="Vscode"></a>Vscode</h2><h2 id="Github"><a href="#Github" class="headerlink" title="Github"></a>Github</h2>]]></content>
+    
+    
+    <categories>
+      
+      <category>study</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>study</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  
+</search>
